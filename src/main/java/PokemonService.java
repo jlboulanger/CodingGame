@@ -1,14 +1,14 @@
-package fr.fabernovel.pokemon.service;
+//package fr.fabernovel.pokemon.service;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import fr.fabernovel.pokemango.model.PokemonApiResponse;
+/*import fr.fabernovel.pokemango.model.PokemonApiResponse;
 import fr.fabernovel.pokemango.model.PokemonType;
 import fr.fabernovel.pokemango.model.PokemonWithStats;
 import fr.fabernovel.pokemon.model.PokemonApiResponse;
 import fr.fabernovel.pokemon.model.PokemonWithStats;
-import fr.fabernovel.pokemon.model.PokemonType;
+import fr.fabernovel.pokemon.model.PokemonType;*/
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
@@ -36,7 +36,7 @@ public class PokemonService {
      * @param name The pokemon's name
      * @return The pokemon's details, including stats calculated from other pokemons of the same type(s).
      */
-    public PokemonWithStats getPokemonByName(String name) {
+   /* public PokemonWithStats getPokemonByName(String name) {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
@@ -124,6 +124,6 @@ public class PokemonService {
         pokemonS.setSpecies(pokemon.getSpecies());
         pokemonS.setSprite_img(pokemon.getSprites().getFront_default());
         pokemonS.setStats(pokemon.getStats());
-    }
+    }*/
 
 }
